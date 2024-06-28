@@ -1,0 +1,68 @@
+
+.background{
+    background-color: #111;
+
+}
+.vid1 {
+    width: 100%;
+    position: absolute;
+    top: -135px;
+}
+.title {
+    top: 10rem;
+    left: 70px;
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+    width: 65%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    
+
+}
+.theme{
+    position: relative;
+    z-index: 1;
+    font-size: smaller;
+    color: white;
+    top: 22rem;
+    width: 33%;
+    left: 75px;
+    
+}
+
+.button{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    top: 15rem;
+    left: 70px;
+    width: 15%;
+    height: 8vh;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    background-color: rgb(51, 52, 53);
+    border-radius: 5px;
+}
+.button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #a90000;
+    transition: all 0.2s;
+}
+.dialogue{
+    position: relative;
+    z-index: 1;
+}
